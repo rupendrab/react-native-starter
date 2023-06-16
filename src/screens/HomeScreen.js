@@ -8,22 +8,31 @@ const HomeScreen = ({navigation}) => {
       <Button 
         title="Go to Components Demo"
         onPress={() => {
-          console.log("Button Pressed!")
           navigation.navigate('Components')
         }}
       />
       <Button 
         title="Go to List Demo"
         onPress={() => {
-          console.log("Button Pressed!")
           navigation.navigate('List')
         }}
       />
       <Button 
         title="Go to Image Demo"
         onPress={() => {
-          console.log("Button Pressed!")
           navigation.navigate('Image')
+        }}
+      />
+      <Button 
+        title="Go to Counter Demo"
+        onPress={() => {
+          navigation.navigate('Counter')
+        }}
+      />
+      <Button 
+        title="Go to Color Demo"
+        onPress={() => {
+          navigation.navigate('Color')
         }}
       />
       {/*
